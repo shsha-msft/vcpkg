@@ -9,6 +9,7 @@ vcpkg_from_github(
     PATCHES
         fix-cmake.patch
         fix-NAN-on-Win11.patch
+        fix-binskim-BA2007-errors.patch
 )
 
 vcpkg_check_features(

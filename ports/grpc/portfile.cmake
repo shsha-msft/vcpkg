@@ -18,6 +18,7 @@ vcpkg_from_github(
         00015-disable-download-archive.patch
         00016-fix-plugin-targets.patch
         00017-abseil.patch
+        00018-fix-binskim-BA2007-errors.patch
 )
 # Ensure de-vendoring
 file(REMOVE_RECURSE

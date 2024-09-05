@@ -8,6 +8,7 @@ vcpkg_from_github(
     HEAD_REF main
     PATCHES
         fix-cmake.patch
+        fix-binskim-BA2007-errors.patch
 )
 
 vcpkg_cmake_configure(
