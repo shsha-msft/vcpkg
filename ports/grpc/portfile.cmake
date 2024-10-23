@@ -20,6 +20,7 @@ vcpkg_from_github(
         00014-pkgconfig-upbdefs.patch
         00015-disable-download-archive.patch
         00016_add_header.patch
+        00017-avoid-binskim-BA2007-errors.patch
 )
 
 if(NOT TARGET_TRIPLET STREQUAL HOST_TRIPLET)

@@ -7,7 +7,7 @@ index d64c14f6..ad3597c3 100755
      endif()
  
 +    if (MSVC)
-+      add_compile_options(/wd4146 /wd4703 -D_CRT_SECURE_NO_WARNINGS)
++      add_compile_options(/wd4703 -D_CRT_SECURE_NO_WARNINGS)
 +    endif()
 +
      enable_testing()
